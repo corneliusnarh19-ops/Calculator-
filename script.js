@@ -53,3 +53,6 @@ button:active {
 .zero {
   grid-column: span 2;
 }
+function toggleTheme() {
+  document.body.classList.toggle("light-mode");
+}

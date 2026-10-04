@@ -49,6 +49,15 @@ button:active {
 .zero {
   grid-column: span 2;
 }
-function toggleTheme() {
-  document.body.classList.toggle("light-mode");
+.light-mode {
+  background: #f1f5f9;
+}
+
+.light-mode .calculator {
+  background: white;
+}
+
+.light-mode #display {
+  background: #e2e8f0;
+  color: #111;
 }
